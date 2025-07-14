@@ -4,14 +4,10 @@ A fast and efficient multithreaded tool to encrypt multiple files in parallel.
 
 This project is designed to demonstrate how parallel processing can speed up encryption tasks by utilizing multiple threads to process files concurrently.
 
----
-
 ## 🚀 Overview
 
 The program reads all files from a given input directory, encrypts them using a symmetric algorithm (AES or XOR), and writes the encrypted output to a separate directory.  
 Each file is encrypted on a separate thread to maximize CPU utilization and minimize overall processing time.
-
----
 
 ## ✨ Key Features
 
@@ -21,8 +17,6 @@ Each file is encrypted on a separate thread to maximize CPU utilization and mini
 - Fast and scalable
 - Optionally supports secure AES encryption
 
----
-
 ## 🧠 How It Works
 
 1. User provides input and output folder paths.
@@ -30,16 +24,13 @@ Each file is encrypted on a separate thread to maximize CPU utilization and mini
 3. Each file is passed to a separate thread for encryption.
 4. Encrypted files are saved to the output folder.
 
----
 
 ## 🛠 Technologies Used
 
-- Language: C++ / Python
+- Language:  Python
 - Encryption: AES / XOR
-- Threads: C++ std::thread or Python threading module
+- Threads:  Python threading module
 - I/O: File handling, directory traversal
-
----
 
 ## 📦 Usage Example
 
